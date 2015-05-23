@@ -18,6 +18,7 @@
 #' @keywords medd
 #' @return a list of the total MEDD values
 #' @export
+#' @import hash
 #' @examples
 #' data <- data.frame(names=c("john", "jane", "peter"),
 #'                  hydrocod_po=c(5,10,NA),
