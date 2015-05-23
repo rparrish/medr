@@ -1,0 +1,14 @@
+med_route,meq_po
+hydrocodone_po,0.3
+morphine_iv,1
+morphine_po,1
+hydromorphone_iv,6.7
+fentanyl_iv,100
+fentanyl_td,25
+hydromorphone_po,1.3
+methadone_iv,9999
+oxycodone_po,0.5
+oxymorphone_po,1
+sufentanil_iv,9999
+nalbuphine_iv,1
+tramadol_iv,0.1
