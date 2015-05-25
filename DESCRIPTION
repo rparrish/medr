@@ -11,3 +11,6 @@ LazyData: TRUE
 Imports:
     hash,
     dplyr
+Suggests:
+    knitr
+VignetteBuilder: knitr
