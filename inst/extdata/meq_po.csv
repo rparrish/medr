@@ -1,15 +1,15 @@
 generic,route,key,meq_po
-fentanyl,iv,fentanyl_iv,.2
-hydrocodone,po,hydrocodone_po,0.3
+fentanyl,iv,fentanyl_iv,0.2
+hydrocodone,po,hydrocodone_po,1
 hydromorphone,iv,hydromorphone_iv,15
 hydromorphone,po,hydromorphone_po,5
-meperidine,iv,meperidine_iv,.1333
+meperidine,iv,meperidine_iv,0.1333
 methadone,iv,methadone_iv,13.5
 methadone,po,methadone_po,4.7
 morphine,iv,morphine_iv,3
 morphine,po,morphine_po,1
-nalbuphine,iv,nalbuphine_iv, 1
-oxycodone,po,oxycodone_po, 1.5
-oxymorphone,po,oxymorphone_po, 3
-sufentanil,iv,sufentanil_iv, 2
-tramadol,iv,tramadol_iv, 0.2
+nalbuphine,iv,nalbuphine_iv,1
+oxycodone,po,oxycodone_po,1.5
+oxymorphone,po,oxymorphone_po,0.3333
+sufentanil,iv,sufentanil_iv,2
+tramadol,iv,tramadol_iv,0.1
