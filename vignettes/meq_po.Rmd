@@ -28,7 +28,8 @@ kable(meq_po)
 [Comparing opioids:
 A guide to estimating oral morphine equivalents (OME) in
 research](https://ndarc.med.unsw.edu.au/sites/default/files/ndarc/resources/TR.329.pdf): Table 1  
-[Nalbuphine](https://www.med.unc.edu/aging/fellowship/current/curriculum/palliative-care/UNC%20Equianalgesic%20Card%20-Dec2009.pdf)  
+[Hydrocodone PO](https://www.med.unc.edu/aging/fellowship/current/curriculum/palliative-care/UNC%20Equianalgesic%20Card%20-Dec2009.pdf)
+[Nalbuphine IV](https://www.med.unc.edu/aging/fellowship/current/curriculum/palliative-care/UNC%20Equianalgesic%20Card%20-Dec2009.pdf)  
 [Tramadol IV](http://link.springer.com/article/10.2165%2F00003088-200443130-00004)  
 [Meperidine IV](https://www.med.unc.edu/aging/fellowship/current/curriculum/palliative-care/UNC%20Equianalgesic%20Card%20-Dec2009.pdf)  
 [Oxymorphone PO](http://www.opana.com/prescriber/dosing/opioid-conversions.aspx)
