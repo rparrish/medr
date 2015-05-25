@@ -35,7 +35,7 @@
 
 medd<- function(x) {
     # load the morphine equivalents table
-    meq <- hash::hash(meq_po$key, meq_po$meq_po)
+    meq <- hash::hash(keys = meq_po$key, values = meq_po$meq_po)
 
     results <-
         x %>%
