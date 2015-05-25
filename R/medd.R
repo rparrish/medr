@@ -35,7 +35,7 @@
 
 medd<- function(x) {
     # load the morphine equivalents table
-    meq <- hash::hash(meq_po$med_route, meq_po$meq_po)
+    meq <- hash::hash(meq_po$key, meq_po$meq_po)
 
     results <-
         x %>%
@@ -43,16 +43,18 @@ medd<- function(x) {
         mutate(
                me_fentanyl_iv =
                    ifelse("fentanyl_iv" %in% names(x), prod(fentanyl_iv, meq$fentanyl_iv, na.rm = TRUE), 0),
-               me_fentanyl_td =
-                   ifelse("fentanyl_td" %in% names(x), prod(fentanyl_td, meq$fentanyl_td, na.rm = TRUE), 0),
                me_hydrocodone_po =
                    ifelse("hydrocodone_po" %in% names(x), prod(hydrocodone_po, meq$hydrocodone_po, na.rm = TRUE), 0),
                me_hydromorphone_iv =
                    ifelse("hydromorphone_iv" %in% names(x), prod(hydromorphone_iv, meq$hydromorphone_iv, na.rm = TRUE), 0),
                me_hydromorphone_po =
                    ifelse("hydromorphone_po" %in% names(x), prod(hydromorphone_po, meq$hydromorphone_po, na.rm = TRUE), 0),
+               me_meperidine_iv =
+                   ifelse("meperidine_iv" %in% names(x), prod(meperidine_iv, meq$meperidine_iv, na.rm = TRUE), 0),
                me_methadone_iv =
                    ifelse("methadone_iv" %in% names(x), prod(methadone_iv, meq$methadone_iv, na.rm = TRUE), 0),
+               me_methadone_po =
+                   ifelse("methadone_po" %in% names(x), prod(methadone_po, meq$methadone_po, na.rm = TRUE), 0),
                me_morphine_iv =
                    ifelse("morphine_iv" %in% names(x), prod(morphine_iv, meq$morphine_iv, na.rm = TRUE), 0),
                me_morphine_po =
@@ -61,6 +63,8 @@ medd<- function(x) {
                    ifelse("nalbuphine_iv" %in% names(x), prod(nalbuphine_iv, meq$nalbuphine_iv, na.rm = TRUE), 0),
                me_oxycodone_po =
                    ifelse("oxycodone_po" %in% names(x), prod(oxycodone_po, meq$oxycodone_po, na.rm = TRUE), 0),
+               me_oxymorphone_po =
+                   ifelse("oxymorphone_po" %in% names(x), prod(oxymorphone_po, meq$oxymorphone_po, na.rm = TRUE), 0),
                me_sufentanil_iv =
                    ifelse("sufentanil_iv" %in% names(x), prod(sufentanil_iv, meq$sufentanil_iv, na.rm = TRUE), 0),
                me_tramadol_iv =
