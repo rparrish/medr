@@ -1,14 +1,14 @@
-med_route,meq_po
-hydrocodone_po,0.3
-morphine_iv,1
-morphine_po,1
-hydromorphone_iv,6.7
-fentanyl_iv,100
-fentanyl_td,25
-hydromorphone_po,1.3
-methadone_iv,9999
-oxycodone_po,0.5
-oxymorphone_po,1
-sufentanil_iv,9999
-nalbuphine_iv,1
-tramadol_iv,0.1
+generic, route, key, meq_po
+hydrocodone, po, hydrocodone_po,0.3
+morphine, iv, morphine_iv,1
+morphine, po, morphine_po,1
+hydromorphone, iv, hydromorphone_iv,6.7
+fentanyl, iv, fentanyl_iv,100
+fentanyl, td, fentanyl_td,25
+hydromorphone, po, hydromorphone_po,1.3
+methadone, iv, methadone_iv,9999
+oxycodone, po, oxycodone_po,0.5
+oxymorphone, po, oxymorphone_po,1
+sufentanil, iv, sufentanil_iv,9999
+nalbuphine, iv, nalbuphine_iv,1
+tramadol, iv, tramadol_iv,0.1
