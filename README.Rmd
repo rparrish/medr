@@ -1,0 +1,46 @@
+---
+title: "README"
+author: "Rollie Parrish"
+date: "May 31, 2015"
+output: 
+    #html_document
+    md_document 
+---
+# medr
+Morphine Equivalent Dosages in R. Used to convert various opioids daily doses to the total morphine equivalent daily dose.
+
+## Morphine Equivalent Dosage table
+
+```{r meq_po, echo=FALSE, warning=FALSE}
+library(knitr)
+library(medr)
+
+kable(meq_po)
+
+```
+
+## Sources
+
+- [NDARC](https://ndarc.med.unsw.edu.au/sites/default/files/ndarc/resources/TR.329.pdf): Table 1  
+- [UNC](https://www.med.unc.edu/aging/fellowship/current/curriculum/palliative-care/UNC%20Equianalgesic%20Card%20-Dec2009.pdf)
+- [OPANA](http://www.opana.com/prescriber/dosing/opioid-conversions.aspx)
+
+
+
+
+## Installation
+
+This package can be installed using devtools with the following:
+
+    devtools::install_github(build_vignettes = TRUE, "rparrish/medr")
+
+
+## Requirements
+
+
+## Usage
+
+```
+me_data <- medd(data)
+```
+
